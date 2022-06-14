@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<!-- webapp/resources/config/appdata.properties 파일을 공유 리소스로 사용하기 위한 설정 -->
+	<!-- 단, context:xxx 사용을 위해서 상단의 bean 태그 내에 xmlns:context 네임스페이스 설정 필수! -->
+<!-- 	<context:property-placeholder location="/resources/config/appdata.properties"/> -->
+</beans>
